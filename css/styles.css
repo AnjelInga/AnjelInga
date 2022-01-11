@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body {
+  font-family: 'exo', serif;
+  overflow-x: hidden;
+  background: url(../img/fondo\ de\ galaxia.jpg) no-repeat center left;
+  width:100vw;
+  height: 60vh;
+
+}
+
+.contenedor{
+  width: 100%;
+
+  margin:0 auto;
+  overflow:hidden;
+}
+
+.wrapper,
+.Habilidades {
+  width:100vw;
+  height: 35vh;
+  background: #242424;
+  color: #fff;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand{
+  margin-top: -7px;
+}
+
+
+  .brand  span{
+    color: #00ffb3;
+  }
+
+  .menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+
+  }
+
+
+.menu li {
+  list-style: none;
+
+}
+
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .menu .active {
+    color: #00ffb3;
+  }
+
+.menu a:hover {
+  background-color: none;
+  color:#00ffb3;
+  transition: ease-in .4s;
+}
+
+.main {
+  margin:auto;
+  margin-top: 20px;
+  margin-left: 800px;
+  align-items: center;
+
+
+}
+
+h1 {
+  font-size:3.5em;
+  color: #00ffb3;
+}
+
+span {
+  color: #ffffff;
+
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: #00ffb3;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor:pointer;
+  box-shadow: 1px 3px 11px -5px  #242424;
+}
+
+.download-cv:hover {
+  background-color: #242424;
+  box-shadow: none;
+  color:#00ffb3;
+  
+}
+
+
+.main img  {
+  width:250px;
+  border: 7px solid #00ffb3;
+  height: 300px ;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(10.1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+
+
+.about-info{
+  grid-column: 5/10;
+  padding:3em;
+  margin-top: 60px;
+  margin-left: 550px;
+  color:rgb(255, 255, 255)
+}
+
+.about-info h2{
+  font-size: 2em;
+  color:rgb(255, 255, 255)
+}
+
+.divider{
+  height: 20px;
+  width: 60px;
+  background-color: #00ffb3;
+  margin-top:10px;
+  margin-bottom: 2em;
+}
+
+.titulo1 {
+  margin:auto;
+  width: 0vw;
+  height: 0vh;
+  margin-top: 250px;
+  margin-left: 70px;
+}
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: #00ffb3;
+  margin-top:10px;
+  margin-bottom: 2em;
+}
+
+
+.contenedor_habilidades1 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.figma {
+  text-align: center;
+}
+.html {
+  text-align: center;
+}
+
+.css {
+  text-align: center;
+}
+
+.wordpress {
+  text-align: center;
+}
+
+.photoshop {
+  text-align: center;
+}
+
+.illustrator {
+  text-align: center;
+}
+
+.premiere {
+  text-align: center;
+}
+
+.aftereffects {
+text-align: center;
+}
+
+.contenedor_habilidades2 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-headings h2{
+font-size: 3em;
+}
+
+.container-contact {
+  width: 800px;
+  bottom: 0px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+.form input{
+  padding: 10px 20px;
+  margin-top: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.form textarea{
+  height: 150px;
+  background: none;
+  color: #ffffff;
+  padding: 1.5em;
+  border: 1px solid #fff;
+}
+
+.btn-submit{
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: rgb(0, 255, 179);
+  border-radius: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #ffffff;
+  box-shadow: none;
+  color:#242424;
+  
+}
+
+
+
+.contact-title{
+  color: #fff;
+  padding:3em;
+  margin-top: 60px;
+  margin-left: 90px;
+  color:rgb(255, 255, 255)
+
+  }
+
+
+.contact-form{
+  color: #00ffb3;
+    margin-top: -560px;
+    margin-left: 60px;
+  }
+
+
+  
+.contact-section{
+  width:100vw;
+  height: 50vh;
+  background: #242424;
+  color: #fff;
+  
+  }
+
+.container-contact{ display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 900px;
+  }
+
+
+  .sotial-network{
+    color: #fff;
+    padding:3em;
+    margin-top: 30px;
+    margin-left: -50px;
+    color:rgb(255, 255, 255)
+  
+    }
